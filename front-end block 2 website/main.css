@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial';
+    background-image: url("images/grey-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+
+
+a:hover {
+    background-color: rgb(69, 69, 69);
+}
+
+nav ul {
+    top: 0;
+    left: 0;
+}
+
+nav li {
+    float: left;
+}
+
+
+div {
+    margin-top: 75px;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 75px;
+}
+
+#pokemonGame {
+    height: 300px;
+    background-color: thistle;
+    padding: 10px;
+}
+
+button{
+    display: inline-block;
+    border: none;
+    color: black;
+    background-color: grey;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+footer ul{
+    bottom: 0;
+    right: 0;
+}
+
+footer li {
+    float: right;
+}
+
+@media screen and (max-width: 600px){
+    nav ul {
+        height: 100px;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    div{
+        margin-top: 125px;
+    }
+}

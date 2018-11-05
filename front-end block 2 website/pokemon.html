@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="main.js"></script>
+        <title>Front-End Block</title>
+    </head>
+
+    <body id="top">
+        <nav>
+            <ul>
+                <li><a href="index.html#intro">Introductie</a></li>
+                <li><a href="index.html#tasks">Opdrachten</a></li>
+                <li><a href="index.html#solutions">Uitvoering</a></li>
+                <li><a href="pokemon.html">Pokemon spel</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <h1>Pokemon spel!</h1>
+            <p>
+                Om wat JavaScript te gebruiken heb ik een simpel Pokemon spelletje gemaakt wat hier te spelen is.
+            </p>
+        </div>
+
+        <div id="pokemonGame">
+            <p>Druk op <b>volgende Pokemon</b> om een Pokemon tegen te komen en proberen deze te vangen</p>
+            <p>Je bent de volgende Pokemon tegengekomen</p>
+            <h3 id="pokemon">Druk op de knop voor je eerste Pokemon!</h3>
+            <p id="message">Probeer deze Pokemon te vangen</p>
+            <button onClick="showMessage()">Vang</button> <button onClick="encounterPokemon()">Volgende Pokemon</button>
+        </div>
+    </body>
